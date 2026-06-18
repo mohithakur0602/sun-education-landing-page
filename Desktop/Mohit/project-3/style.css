@@ -1,0 +1,99 @@
+*{ box-sizing:border-box; margin:0px; font-family:verdana; text-align:justify; }
+.row:after{ contain:"" ; display: table; clear: both;}
+.a100{ float:left; width: 100%; padding:15px; }
+.a75{ float:left; width: 75%; padding:15px; }
+.a50{ float:left; width: 50%; padding:15px; }
+.a33{ float:left; width: 33%; padding:15px; }
+.a25{ float:left; width: 25%; padding:15px; }
+.a40{ float:left; width: 40%; padding:15px; }
+.a60{ float:left; width: 60%; padding:15px; }
+.a15{ float:left; width: 15%; padding:15px; }
+.a70{ float:left; width: 70%; padding:15px; }
+.a10{ float:left; width: 10%; padding:15px; }
+.a80{ float:left; width: 80%; padding:15px; }
+.a20{ float:left; width: 20%; padding:15px; }
+.a30{ float:left; width: 30%; padding:15px; }
+
+.menu{  position:fixed; width:100%; background-color:white; height:150px }
+
+.section1 .a50{  background-color:#134774;}
+.section1 .A{  display:inline-block; padding-left:30px; color:white; }
+.section1 .A:hover{  color:#B53136 }
+.section1 .B{  background-color:#B53136; padding: 0px 15px; margin-left:350px;  }
+.section1 .B:hover{ color:white;  }
+.section1 i{ font-size:13px }
+
+.section2 img{ margin-left:20px; width:200px; margin-top:-15px }
+.section2 .dropdown{ position: relative;display:inline-block; margin-top: }
+.section2 .home{ color:#134774; }
+.section2 .dropbtn{ padding:0px 30px;}
+.section2 .dropcontent{ position:absolute; background-color: #c5cdd9; width: 1200px; margin-left: -300px;}
+.section2 .ddc2{ position:absolute; background-color:white; margin-left:60px; display:none;} 
+.section2 a{ display:block; text-decoration:none; border-bottom:1px solid black; padding:10px 30px; font-size:15px; border-left:3px solid black }
+.section2 .db1:hover .dc1{ display:block; }
+.section2 .dc1{ display:none;}
+.section2 .dd2:hover .ddc2{ display:block; }
+.section2 .dropcontent2 .a70{ position:absolute; background-color: #c5cdd9; width:1200px; margin-left: -447px; padding-left:500px;  }
+.section2 .dropcontent2 { display:none; }
+.section2 .dropbtn2:hover .dropcontent2{ display:block; }
+
+
+.section3 img{ width:102%; height:500px; background-size:102% 500px; margin-left: -15px; margin-top: 130px;}
+.section3 .A{  margin-top:-350px; font-size:30px; color:white; font-weight:bold; text-align:center; text-shadow:2px 2px 0px gray; }
+.section3 .B{  background-color:;   width: 40%; height: 100px; margin-left: 450px; margin-top: 30px;}
+.section3 .C{ position:;font-size:40px; font-weight:bold; color:white; text-align:center; margin-top:-50px;opacity:0.7; }
+.section3 button{ color:white; background-color:#B53136; border:none; border-radius:20px;padding: 10px; font-size: 20px; margin-left:680px; margin-top: 60px}
+
+.section4 .A{ font-size:25px; padding:100px 0px 5px 200px; }
+.section4 .B{ font-size:40px; font-weight:bold; padding:0px 0px 40px 200px;  }
+.section4 .C{  color:gray;  padding:0px 0px 0px 200px;font-size:18px; word-spacing: 10px}
+.section4 .row{  padding:100px 0px 0px 0px; width:80%;margin-left: 0px}
+.section4 img{ width:90% }
+.section4 button{  background-color:#134774; color:white; padding:15px; border:none; border-radius:35px; margin-left:200px; font-size: 20px; margin-top: 20px}
+
+.section5 .A{ text-align:center; font-size:40px; font-weight:bold; padding-bottom:10px }
+.section5 .B{ text-align:center; color:gray; font-size:20px;}
+
+.section6 .a80{ margin-top:50px }
+.section6 .a33{ border-left:5px solid #134774 ; text-align:center;background-color:ghostwhite; }
+.section6 .A{ text-align:center; font-weight:bold; padding-top:15px}
+
+.section7 .a100{  background-image:url('pic.jpg'); background-size: 100% 750px; width: 100% ; height: 500px; margin-top: 30px; background-attachment: fixed;
+background-repeat: no-repeat;} 
+.section7 .A{ color:white; font-weight:bold; font-size:30px; text-align:center; padding-top:100px }
+.section7 .B{ color:white; text-align: center;padding: 30px 370px; line-height: 30px}
+
+.section8 .a80{ background-color:white; width:80%; height:150px; margin-top: -100px; box-shadow:3px 3px 20px gray } 
+.section8 .a20{ font-size:40px; color:#134774; font-weight:bold; text-align:center;}
+.section8 .A{ font-size:15px; text-align:center; padding-top:20px; color:gray; }
+
+.section9 .a25 { text-align:center; margin-top:30px }
+.section9 .A{ text-align:center; color:gray; font-size:20px }
+
+.section10 .a30 .A{ text-align:center; margin-top: 0px;}
+.section10 .a70{ margin-top:0px }
+.section10 img{ width:250px; height:auto; border-radius:100%; border: 10px solid brown;}
+.section10 .B{ color:brown; font-weight:bold; font-size:30px; }
+.section10 .C{ font-size:17px; line-height:30px; padding:20px 150px 0px 0px }
+.section10 button{ padding:8px; border-color:brown; color: brown;}
+.section10 .D{ font-weight:bold; color:brown; font-size:22px; padding-top:20px }
+.section10 .E{ font-weight:bold; color:brown; font-size:22px; padding-top: 10px}
+
+
+.section11 .a30 .A{ text-align:center; margin-top: 30px;}
+.section11 .a70{ margin-top:30px }
+.section11 img{ width:250px; height:auto; border-radius:100%; border: 10px solid brown;}
+.section11 .B{ color:brown; font-weight:bold; font-size:30px; }
+.section11 .C{ font-size:17px; line-height:30px; padding:20px 150px 0px 0px }
+.section11 button{ padding:8px; border-color:brown; color: brown;}
+.section11 .D{ font-weight:bold; color:brown; font-size:22px; padding-top:20px }
+.section11 .E{ font-weight:bold; color:brown; font-size:22px; padding-top: 10px}
+
+
+.section12 .a80{border: 1px solid black;margin:50px 0px 0px 10%}
+form{text-align: center;}
+input{width: 100%;padding: 10px}
+#btn{width: 30%;text-align: center;position: absolute;left: 16%;top: 510%}
+#message{height: 200px;padding: 0px 0px 170px 13px; }
+
+
